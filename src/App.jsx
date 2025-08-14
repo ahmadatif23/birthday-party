@@ -768,7 +768,7 @@ export default function BirthdayPartyLandingPage() {
                 <p className="-mt-2 text-xs text-red-600">{errors.agree}</p>
               )}
 
-              <div className="flex items-center gap-3">
+              <div className="flex md:flex-row flex-col md:items-center items-start gap-3">
                 <button
                   type="submit"
                   className="rounded-2xl cursor-pointer bg-primary px-5 py-2.5 text-white font-medium hover:bg-primary-light focus:outline-none focus:ring-2 focus:ring-primary-light"
