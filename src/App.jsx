@@ -842,7 +842,7 @@ export default function BirthdayPartyLandingPage() {
       {/* Footer */}
       <footer className="bg-white/70">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-10 pt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 text-sm">
-          <div>
+          <div className="flex justify-center flex-col items-center text-center">
             <a
               href="#home"
               onClick={(e) => goToSection(e, "home")}
@@ -857,7 +857,7 @@ export default function BirthdayPartyLandingPage() {
             </a>
           </div>
 
-          <div>
+          <div className="flex justify-center flex-col items-center text-center">
             <div className="font-bold">Contact</div>
             <ul className="mt-2 space-y-1 text-slate-600">
               <li>
@@ -890,7 +890,8 @@ export default function BirthdayPartyLandingPage() {
               </li>
             </ul>
           </div>
-          <div>
+
+          <div className="flex justify-center flex-col items-center text-center">
             <div className="font-bold">Explore</div>
             <ul className="mt-2 space-y-1 text-slate-600">
               <li>
@@ -922,7 +923,8 @@ export default function BirthdayPartyLandingPage() {
               </li>
             </ul>
           </div>
-          <div>
+
+          <div className="flex justify-center flex-col items-center text-center">
             <div className="font-bold">Follow</div>
             <ul className="mt-2 space-y-1 text-slate-600">
               <li>
