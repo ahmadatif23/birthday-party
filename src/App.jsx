@@ -951,13 +951,14 @@ export default function BirthdayPartyLandingPage() {
       </footer>
 
       {/* Back to top */}
-      <button
-        onClick={() => goToSection("home")}
+      <a
+        href="#home"
+        onClick={(e) => goToSection(e, "home")}
         className="fixed cursor-pointer z-20 bottom-5 right-5 inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 bg-white shadow hover:shadow-md"
         aria-label="Back to top"
       >
         ↑
-      </button>
+      </a>
 
       {/* JSON-LD for SEO */}
       <script
