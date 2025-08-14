@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #27828c;
+  --color-primary-light: #389ba7;
+  --color-theme-1: #edf7f8;
+  --color-theme-2: #daf0f2;
+  /* --color-primary: #edf7f8; */
+}
+
+.hero-section {
+  background-image: url("public/banner-bg.webp");
+  background-position: center;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 1;
+}
